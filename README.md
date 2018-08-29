@@ -7,5 +7,9 @@
 
 ## Description
 
-The challenge was to create a ...corewar...
+The challenge was to create a
+
+...
+corewar
+...
 
