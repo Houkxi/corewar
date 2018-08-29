@@ -9,7 +9,7 @@
 
 The challenge was to create a
 
-...
+'''
 corewar
-...
+'''
 
