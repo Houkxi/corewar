@@ -83,7 +83,7 @@ Import image of the rapsheet
 
 ## Additional information
 
-Download project
-*make* both programs (*asm*) & (*corewar*)
+Download project.
+*make* both programs (*asm*) & (*corewar*).
 Give a ```Champion``` (*.s extension*) file to the ```Assembler``` it will return a file (*.cor extension*) which will be given to ```Corewar``` as such.
 Now have fun and write your own ```Champion``` and beat them all !!
