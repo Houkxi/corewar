@@ -134,9 +134,7 @@ No ```Assembler``` will look alike seeing that the error management is left to o
 
 ```Corewar``` is a virtual machine with a circular memory, of size defined in [op.h](https://github.com/mmanley42/corewar/blob/master/asmb/includes/op.h). Its role is to load the ```Champion``` into the arena (aka the memory block) and start up a process that will then read each octet and tell the VM which commands to execute. This will useally happen with a great number of processes at once.
 
-```
-Import image of the memory block with multiple processes
-```
+![Memory Block](https://github.com/mmanley42/ressources/blob/master/memory_block.gif)
 
 Same as the ```Assembler``` the program cannot quit unexpectedly and will deal with the errors its own waym for expamplem it may choose to ignore a none existing command or choose to quit properly.
 
@@ -158,24 +156,16 @@ The final output of the program will tell us the victor of this battle.
 
 A binary visualizer, flag -bi :
 
-```
-Import image binary output
-```
+![Binary image](https://github.com/mmanley42/ressources/blob/master/asm_output.gif)
+
 It is the same output as the HexDump but with a color code to maje it much more readable.
 
 **Corewar Bonus**
 
-A visualizer, flag -v :
-
-```
-Import image of VM
-```
-
+A visualizer, flag -v.
 A complete information sheet of each process with its location in the VM :
 
-```
-Import image of the rapsheet
-```
+![process sheet](https://github.com/mmanley42/ressources/blob/master/process_bonus.gif)
 
 ## Additional information
 
